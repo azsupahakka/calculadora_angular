@@ -2,9 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CalcularComponent } from './calcular/calcular.component';
 import { MainComponent } from './main/main.component';
-import { MostrarComponent } from './mostrar/mostrar.component';
 
 @NgModule({
   declarations: [
@@ -12,9 +10,7 @@ import { MostrarComponent } from './mostrar/mostrar.component';
   ],
   imports: [
     BrowserModule,
-    MainComponent,
-    CalcularComponent,
-    MostrarComponent
+    MainComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

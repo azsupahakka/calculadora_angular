@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MostrarComponent } from './mostrar.component';
+import { CalcularComponent } from './calcular.component';
 
 
 
 @NgModule({
   declarations: [
-    MostrarComponent
+    CalcularComponent
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CalcularComponent
   ]
 })
-export class MostrarModule { }
+export class CalcularModule { }
