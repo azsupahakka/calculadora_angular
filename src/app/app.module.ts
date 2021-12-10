@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CalcularComponent } from './calcular/calcular.component';
+import { MainComponent } from './main/main.component';
+import { MostrarComponent } from './mostrar/mostrar.component';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MainComponent,
+    CalcularComponent,
+    MostrarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
